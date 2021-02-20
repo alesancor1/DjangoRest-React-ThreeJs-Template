@@ -19,7 +19,7 @@ After the installation of Python & pip it's time to install Django and DjangoRes
 
 * <b>Django</b> - See docs [here](https://docs.djangoproject.com/en/3.1/)
 ```
-pip install Django==(vesion)
+pip install Django==3.1.6
 ```
 
 * <b>DjangoRestFramework</b> - Already configured in this template, just install through pip, see docs [here](https://www.django-rest-framework.org/)
