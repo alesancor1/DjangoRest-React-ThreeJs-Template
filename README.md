@@ -34,6 +34,7 @@ python manage.py runserver
 ```
 <b>Note:</b> If python has not been added to PATH ```python``` will not be recogniced, instead you can use ```py -3``` (if you installed python 3 or higher) or ```py -2``` (if you installed python 2) 
 
+Then you can see the db info in <b>http://localhost:8080/api</b>
 <br></br>
 Now let's install required dependencies for React-app (ThreeJs is already included)
 ```
