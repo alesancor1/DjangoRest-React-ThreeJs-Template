@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/alesancor1/DjangoRest-React-ThreeJs-Template/master/game/public/favicon.ico" height="50px">  DjangoRest & React+ThreeJs
+# <img src="https://raw.githubusercontent.com/alesancor1/DjangoRest-React-ThreeJs-Template/master/app/public/favicon.ico" height="50px">  DjangoRest & React+ThreeJs
 
 Template repository using Django in backend as a Rest API consumed by React in front.
 
