@@ -13,7 +13,7 @@ In order to build the app you will need the following frameworks and tools:
 * [Node.js](https://nodejs.org/es/download/) - For executing React and install dependencies such as ThreeJs
 * [Python + pip](https://www.python.org/downloads/) - Needed for Django & DjangoRestFramework
 
-### Installing dependencies & Running code 📦
+### Config & Running code 📦
 
 After the installation of Python & pip it's time to install Django and DjangoRestFramework:
 
@@ -27,9 +27,16 @@ pip install Django==(vesion)
 pip install djangorestframework
 ```
 
-Now that Django is installed we can run the db this way:
+Now that Django is installed we need to create a superuser for db before running:
 ```
 cd ./db
+python manage.py migrate
+python manage.py createsuperuser
+```
+Introduce an username and password for db superuser (email is not required)
+
+Once the db su is created, you can run the dev server:
+```
 python manage.py runserver
 ```
 <b>Note:</b> If python has not been added to PATH ```python``` will not be recogniced, instead you can use ```py -3``` (if you installed python 3 or higher) or ```py -2``` (if you installed python 2) 
