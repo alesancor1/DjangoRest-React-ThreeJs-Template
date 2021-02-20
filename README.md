@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/gii-is-DP1/dp1-2020-g3-12/master/app/src/images/Gresur.png" height="50px">  DjangoRest & React+ThreeJs
+# <img src="https://raw.githubusercontent.com/alesancor1/DjangoRest-React-ThreeJs-Template/master/game/public/favicon.ico" height="50px">  DjangoRest & React+ThreeJs
 
 Template repository using Django in backend as a Rest API consumed by React in front.
 
@@ -17,20 +17,22 @@ In order to build the app you will need the following frameworks and tools:
 
 After the installation of Python & pip it's time to install Django and DjangoRestFramework:
 
-*[Django](https://www.djangoproject.com/download/)
+* <b>Django</b> - See docs [here](https://docs.djangoproject.com/en/3.1/)
 ```
 pip install Django==(vesion)
 ```
-*[DjangoRestFramework] - Already configured in this template, just install through pip
+
+* <b>DjangoRestFramework</b> - Already configured in this template, just install through pip, see docs [here](https://www.django-rest-framework.org/)
 ```
 pip install djangorestframework
 ```
+
 Now that Django is installed we can run the db this way:
 ```
 cd ./db
 python manage.py runserver
 ```
-<b>Note:</b> If python has not been added to PATH the instruction "python" will not be recogniced, instead you can use ```py -3``` (if you installed python 3 or higher) or ```py -2``` (if you installed python 2) 
+<b>Note:</b> If python has not been added to PATH ```python``` will not be recogniced, instead you can use ```py -3``` (if you installed python 3 or higher) or ```py -2``` (if you installed python 2) 
 
 Now let's install required dependencies for React-app (ThreeJs is already included)
 ```
