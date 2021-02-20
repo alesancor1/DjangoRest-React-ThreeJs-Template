@@ -8,7 +8,7 @@ Follow these instructions in order to start your new project!
 
 ### Required 🔧
 
-In order to build the app you will need the following frameworks and tools:
+In order to build the app you will need:
 
 * [Node.js](https://nodejs.org/es/download/) - For executing React and install dependencies such as ThreeJs
 * [Python + pip](https://www.python.org/downloads/) - Needed for Django & DjangoRestFramework
